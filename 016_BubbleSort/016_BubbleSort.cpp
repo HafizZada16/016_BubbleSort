@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int a[20];
+int arr[20];
 int n;
 
 
@@ -25,6 +25,7 @@ void input() {
 		cin >> arr[i];
 	}
 }
+
 void BubbleSortArray() {
 	int pass = 1;
 
