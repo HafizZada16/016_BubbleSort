@@ -39,7 +39,7 @@ void BubbleSortArray() {
 		}
 		pass = pass + 1;
 
-		cout << "\nPass" << pass - 1 << ": ";
+		cout << "\nPass" << pass - 2 << ": ";
 		for (int k = 0; k < n; k++) {
 			cout << arr[k] << " ";
 		}
